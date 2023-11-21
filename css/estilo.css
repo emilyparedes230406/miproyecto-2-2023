@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#contenidoCabecera{
+    width: 100%;
+    background-color: #35e4e7;
+    display: flex;
+}
+#contenidoCuerpo{
+    width: 100%;
+    background-color: #e0f1bf;
+    display: flex;
+    padding-top: 50px;
+}
+footer{
+    width: 100%;
+    height: 200px;
+    border: 1px solid black;
+    background-color: #799442;
+}
+#cabeceraImagenNombre{
+flex:30%;
+}
+#cabeceraMenu{
+flex:70%;
+}
+#imagenRedondo{
+width: 150px;
+height: 150px;
+background-color: white;
+border-radius: 75px;
+position: relative;
+z-index: 1000;
+margin-bottom: 21px;
+left: 5%;
+background-image: url(../img/Recurso\ 8.png);
+background-size: contain;
+background-repeat: no-repeat;
+}
+#nombreRectangulo{
+background-color: rgb(106, 155, 170);
+width: 307px;
+padding: 20px;
+color: white;
+text-transform: uppercase;
+font-weight: bold;
+position: absolute;
+top: 14%;
+}
+ul li{
+display: inline;
+padding: 0 10px;
+border-right: solid 2px black;
+}
+ul li a{
+    color: #550101;
+    text-decoration: none;text-transform: uppercase;
+    font-weight: bold;
+}
+ul li a:hover{
+color: white;
+font-size: 17px;
+text-decoration: underline;
+background-color: grey;
+}
+#logoInicio{
+background-image: url("/img/Recurso\ 7.png");
+padding: 2px 0 0 20px;
+background-size: 18px;
+background-repeat: no-repeat;
+}
+#cuerpoImagen{
+    flex: 40%;
+}
+#cuerpoDatos{
+    flex: 60%;
+}
+#bordeImagen{
+    background-color: #d46b68;
+    padding: 20px;
+    text-align: center;
+    width: 65%;
+    border-radius: 20px;
+}
+img{
+    border-radius: 20px;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
