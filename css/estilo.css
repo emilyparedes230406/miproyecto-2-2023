@@ -33,15 +33,17 @@ border-radius: 75px;
 position: relative;
 z-index: 1000;
 margin-bottom: 21px;
-left: 5%;
+left: 15%;
 background-image: url(../img/Recurso\ 8.png);
-background-size: contain;
+background-size: 130px;
+background-position: center;
 background-repeat: no-repeat;
 }
 #nombreRectangulo{
 background-color: rgb(106, 155, 170);
-width: 307px;
-padding: 20px;
+width: 250px;
+padding: 25px;
+text-align: center;
 color: white;
 text-transform: uppercase;
 font-weight: bold;
@@ -91,4 +93,32 @@ h1{
     font-weight: bold;
     padding-bottom: 20px;
     text-transform: uppercase;
+}
+#DetalleDatos{
+    width: 70%;
+    padding: 20px;
+}
+#Botones{
+    display: flex;
+    margin-top: 20px;
+}
+#BotonFavorito{
+    flex: 50%;
+}
+#BotonUbicación{
+    flex: 50%;
+}
+#MarcoFavorito{
+    background-color: #cccccc;
+    width: 250px;
+    background-image: url(../img/Recurso\ 13.png);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    padding: 20px 0px 20px 55px;
+    background-position: left 20px center;
+    border-radius: 10px;
+}
+#MarcoFavorito:hover{
+    opacity: 70%;
+    cursor: pointer;
 }
